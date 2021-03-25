@@ -1,0 +1,166 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORM DESIGN</title>
+</head>
+<style>
+    body{
+        /* margin: 10px; */
+        background-image: linear-gradient(to right, cyan, rgb(61, 155, 218));
+        
+    }
+ 
+ form{
+     /* border: 2px solid white; */
+     margin: 50px auto;
+     width: 30%;
+     padding: 10px;
+     background-color: whitesmoke;
+     border-radius:5px;
+ }
+ 
+h1{
+    text-align: center;
+    color: rgb(8, 2, 3);
+    /* text-shadow: 2px 1px; */
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+ #contain{
+     max-width: 90%;
+     margin: 4px auto;
+     /* border: 2px solid black; */
+ }
+ input{
+     margin: 5px 0;
+     border: 1px rgb(150, 148, 148) solid;
+     width: 100%;
+     /* border-top-color: transparent;
+     border-bottom-color: cyan;
+     border-left-color: transparent;
+     border-right-color: transparent; */
+     border-color: transparent transparent cyan transparent;
+     box-sizing: border-box;
+     padding: 5px;
+     border-radius: 4px;
+    
+ }
+
+ textarea{
+     border-color: transparent transparent cyan transparent;
+     box-sizing: border-box;
+     /* box-shadow:  0px 0px 8px 0px rgb(56, 250, 153); */
+     /* text-align: top: ;; */
+     padding: 20px;
+     width: 100%;
+ }
+
+
+  input:hover{
+      border: 1px solid springgreen;
+      box-shadow:  0px 0px 8px 0px rgb(56, 250, 153);
+  }
+   
+  button{
+      border: 2px solid cyan;
+      width: 100%;
+        background-image: linear-gradient(to right, cyan, rgb(61, 155, 218));
+        /* padding: 5px; */
+        border-radius: 4px;
+      }
+      button:hover{
+          border: 1px dotted peachpuff;
+          box-shadow: 0px 0px 7px 0px palevioletred;
+      }
+      address{
+          border: 1px  black;
+          margin: 50px auto;
+          text-align: center;
+          width: 150px;
+
+      }
+      .address{
+          text-decoration: underline;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
+      }
+      p:hover{
+        border: 1px dotted peachpuff;
+        box-shadow: 0px 0px 7px 0px palevioletred;
+
+
+      }
+
+      #container{
+          display: flex;
+      }
+      .term{
+          background-color:brown;
+          padding:  1rem;
+          border:  black  solid 1px;
+          text-align: center;
+          margin: 1px;
+          flex: 1;
+      }
+       .term:first-child{
+           flex: 1;
+       }
+</style>
+<body>
+    <form action="">
+         <div id="contain">
+             <h1>Say Hallo!</h1>
+     <table>          
+        <tr>
+            <td id="fname">
+        <div>
+            <label for="first name"> </label>
+            <input type="text" name="Name" id="Name" placeholder="First Name">
+        </div>
+    </td>
+         <td id="lname">
+        <div>
+            <label for="Last name"></label>
+            <input type="text" name="Last name" id="Last name" placeholder="Last Name">
+        </div>
+    </td>
+    </tr>
+</table>
+        <div>
+            <label for="Email"></label>
+            <input type="text" name="email" id="email" placeholder="Email">
+        </div>
+        <label for="Subject"></label>
+        <input type="text" name="subject" id="subject" placeholder="Subject">
+        <div>
+            <label for="Message"></label>
+           <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Type your Message..."></textarea >     
+           </div>
+   <br>
+   <button>Submit</button>
+    </div>
+    </form>
+
+    <div>
+        <address>
+            <p> Email us at <br><a href="pwicyhits@gmail.com">pwicyhits@gmail.com</a></p>
+            <p class="address">Address <br> makurdi benue state</p>
+        </address>
+    </div>
+
+    <!-- <div id=container>
+        <div class="term"><h3>sign up</h3></div>
+        <div class="term"><h3>check up</h3></div>
+        <div class="term"><h3>box up</h3></div>
+        <div class="term"><h3>flex up</h3></div>
+        <div class="term"><h3>push up</h3></div>
+
+    </div>
+     -->
+    <!-- <script src="java file/form.js"></script> -->
+
+</body>
+</html>
